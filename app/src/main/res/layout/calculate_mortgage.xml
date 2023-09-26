@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Mortgage Principal Amount Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mortgage_principal_amount"
+        android:textSize="16sp"/>
+
+    <!-- EditText for Mortgage Principal Amount -->
+    <EditText
+        android:id="@+id/principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/enter_principal_amount"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="test" />
+
+    <!-- Interest Rate Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_rate"
+        android:textSize="16sp" />
+
+    <!-- EditText for Interest Rate -->
+    <EditText
+        android:id="@+id/interest_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Interest Rate"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="test test" />
+
+    <!-- Amortization Period Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amortization_period_in_years"
+        android:textSize="16sp" />
+
+    <!-- EditText for Amortization Period -->
+    <EditText
+        android:id="@+id/amortization_period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_amortization_period"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="test test test" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Result TextView -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

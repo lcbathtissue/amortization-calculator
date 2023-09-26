@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mortgage_details_header">Mortgage Details</string>
+    <string name="mortgage_principal_amount">Mortgage Principal Amount:</string>
+    <string name="enter_principal_amount">Enter Principal Amount</string>
+    <string name="interest_rate">Interest Rate (%):</string>
+    <string name="amortization_period_in_years">Amortization Period (in years):</string>
+    <string name="enter_amortization_period">Enter Amortization Period</string>
+    <string name="calculate">Calculate</string>
+</resources>
